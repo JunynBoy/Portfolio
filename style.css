@@ -194,8 +194,32 @@ h3{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        margin: auto;
+    }
+
+    .background-color-sobre{
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 730px) {
+    .nav__buttons{
+        display: none;
+    }
+
+    .mobile-menu{
+       
     }
 }
+
+@media only screen and (min-width: 730px) {
+    .mobile-menu {
+        display: none;
+        
+    }
+} 
+
 
 .button {
     background-color:#1B7F24 ;
@@ -218,3 +242,16 @@ h3{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226) inset;
 }
 
+.mobile-menu{
+    cursor: pointer;
+    
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    display: block;
+    background: white;
+}
